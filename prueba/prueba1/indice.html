@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="This is an HTML5 example">
+  <meta name="keywords" content="HTML5, CSS3, JavaScript">
+  <title>This text is the title of the document</title>
+  <script src="http://www.w3schools.com/lib/w3data.js"></script>
+    <link rel="stylesheet" href="stile.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    
+    <div>
+        <header class="header" w3-include-html="header.html">
+
+        </header>
+    </div>
+
+    <!----------------------------------------------------------------->
+    <!---contenedores-->
+    <div class="carousel">
+        <div class="slider">
+            <img src="./img/logo.jpg" alt="">
+            <div class="flechas">
+                <button onclick="back()"><i class="bx bx-chevron-left"></i></button>
+                <button onclick="next()"><i class="bx bx-chevron-right"></i></button>
+
+            </div>
+        </div>
+    </div>
+    <!--java code-->
+    <script>
+        var maining=document.querySelector("img");
+        var images=["img/logo.jpg","img/hogwarrts.jpg","img/yoda.png"];
+        var num=0;
+        function next(){
+            num++;
+            if(num>=images.length){
+                num=0
+                maining.src=images[num]
+            }else{
+                maining.src=images[num]
+            }
+
+        }
+        function back(){
+            num--;
+            if(num<0){
+                num=images.length-1
+                maining.src=images[num]
+            }else{
+                maining.src=images[num]
+            }
+
+        }
+    </script>
+
+
+
+
+    <!----------------------------------------------------------------->
+    <!--otro contenedor-->
+    <div class="container">
+        <ul>
+            <img src="./img/logo.jpg" alt="">
+        </ul>
+    </div>
+    <!--otro slider-->
+    <div class="carousel">
+        <div class="slider">
+            <img class="slider-img"src="/img/logo.jpg" alt="">
+            <div class="flechas">
+                <button onclick="back2()"><i class="bx bx-chevron-left"></i></button>
+                <button onclick="next2()"><i class="bx bx-chevron-right"></i></button>
+
+            </div>
+        </div>
+    </div>
+    <!--java code-->
+    <script>
+        var maining2=document.querySelector(".slider-img");
+        var images=["img/logo.jpg","img/hogwarrts.jpg","img/yoda.png"];
+        var num=0;
+        function next2(){
+            num++;
+            if(num>=images.length){
+                num=0
+                maining2.src=images[num]
+            }else{
+                maining2.src=images[num]
+            }
+
+        }
+        function back2(){
+            num--;
+            if(num<0){
+                num=images.length-1
+                maining.src=images[num]
+            }else{
+                maining.src=images[num]
+            }
+
+        }
+    </script>
+
+<script>
+
+    w3IncludeHTML();
+    
+</script>
+</body>
+</html>
