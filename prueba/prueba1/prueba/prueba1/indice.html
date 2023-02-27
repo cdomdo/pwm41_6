@@ -6,9 +6,12 @@
   <meta name="keywords" content="HTML5, CSS3, JavaScript">
   <title>This text is the title of the document</title>
   <script src="http://www.w3schools.com/lib/w3data.js"></script>
-    <link rel="stylesheet" href="css/stile.css">
-    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="stile.css">
+    <link rel="stylesheet" href="header.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
     
@@ -17,95 +20,32 @@
 
         </header>
     </div>
+    <div class="underbar">
+        <span class="underbar_text">LOREM IPSUM DOLOR SIT AMET</span>
+    </div>
+    <!--Texto de novedades-->
+    <div class="text-Rebajas">
+        <p>Novedades</p>
+    </div>
 
     <!----------------------------------------------------------------->
-    <!---contenedores-->
-    <div class="carousel">
-        <div class="slider">
-            <img src="./img/logo.jpg" alt="">
-            <div class="flechas">
-                <button onclick="back()"><i class="bx bx-chevron-left"></i></button>
-                <button onclick="next()"><i class="bx bx-chevron-right"></i></button>
 
-            </div>
-        </div>
+    <!---contenedores slider-->
+    <div class="espacio" w3-include-html="prueba.html">
+
     </div>
-    <!--java code-->
-    <script>
-        var maining=document.querySelector("img");
-        var images=["img/logo.jpg","img/hogwarrts.jpg","img/yoda.png"];
-        var num=0;
-        function next(){
-            num++;
-            if(num>=images.length){
-                num=0
-                maining.src=images[num]
-            }else{
-                maining.src=images[num]
-            }
-
-        }
-        function back(){
-            num--;
-            if(num<0){
-                num=images.length-1
-                maining.src=images[num]
-            }else{
-                maining.src=images[num]
-            }
-
-        }
-    </script>
-
-
-
-
     <!----------------------------------------------------------------->
     <!--otro contenedor-->
-    <div class="container">
-        <ul>
-            <img src="./img/logo.jpg" alt="">
-        </ul>
+    <div class="image-container">
+        <img class="imgc" src="./img/running%20nike.jpg" alt="Imagen 1">
+        <img class="imgc" src="./img/off-white-x-air-jordan.jpg" alt="Imagen 2">
+        <img class="imgc" src="./img/nike%20superrep%20go.jpg" alt="Imagen 3">
     </div>
-    <!--otro slider-->
-    <div class="carousel">
-        <div class="slider">
-            <img class="slider-img"src="/img/logo.jpg" alt="">
-            <div class="flechas">
-                <button onclick="back2()"><i class="bx bx-chevron-left"></i></button>
-                <button onclick="next2()"><i class="bx bx-chevron-right"></i></button>
 
-            </div>
-        </div>
-    </div>
-    <!--java code-->
+
+
+
     <script>
-        var maining2=document.querySelector(".slider-img");
-        var images=["img/logo.jpg","img/hogwarrts.jpg","img/yoda.png"];
-        var num=0;
-        function next2(){
-            num++;
-            if(num>=images.length){
-                num=0
-                maining2.src=images[num]
-            }else{
-                maining2.src=images[num]
-            }
-
-        }
-        function back2(){
-            num--;
-            if(num<0){
-                num=images.length-1
-                maining.src=images[num]
-            }else{
-                maining.src=images[num]
-            }
-
-        }
-    </script>
-
-<script>
 
     w3IncludeHTML();
     

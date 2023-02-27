@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+
+
+}
+/*cuerpo*/
+body{
+    background-color: #232533;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+
+
+}
+.espacio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+
+}
+
+/*----------------------------------------------*/
+.text-Rebajas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+p {
+    color:#b1e3e3 ;
+    font-size: 36px;
+}
+
+/*------------------------------------------------------*/
+/*tres imagenes contenedor*/
+.image-container {
+    margin-top: 320px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imgc {
+    height: 450px;
+    width: 450px;
+    margin: 1px;
+    }
