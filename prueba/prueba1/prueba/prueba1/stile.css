@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@font-face {
+    font-family: 'Helvetica Neue Bold';
+    src: url('../fonts/HelveticaNeueBold.ttf');
+}
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Helvetica Neue Bold', sans-serif;
     font-size: 20px;
 
 
