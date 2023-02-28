@@ -7,8 +7,13 @@
 
 /* Propiedades generales para el color de fuente y fondo */
 * {
-    background-color: #232533FF;
     color: whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+
+.main-c {
+    background-color: #232533FF;
 }
 
 /* Contenedor principal del contenido, propiedades para centrar el div */
@@ -16,12 +21,14 @@
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
+    padding: 25px;
 }
 
 /* Propiedades de los títulos */
 h1, h4 {
     text-transform: uppercase;
     padding-top: 5px;
+    margin-bottom: 15px;
 
 }
 
@@ -47,6 +54,8 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 /* Imágenes de contenedor */
