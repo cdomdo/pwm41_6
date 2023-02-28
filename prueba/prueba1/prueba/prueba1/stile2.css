@@ -10,6 +10,8 @@
 /*cuerpo*/
 body{
     background-color: #232533;
+    position: relative;
+    padding-bottom: 100px;
 }
 
 
