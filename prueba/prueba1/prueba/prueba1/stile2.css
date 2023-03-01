@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -55,6 +56,7 @@ body{
     color: whitesmoke;
     font-weight: bold;
 }
+
 .mostrador .fila .item .precio{
     color: #b3c4ca;
     font-weight: bold;
