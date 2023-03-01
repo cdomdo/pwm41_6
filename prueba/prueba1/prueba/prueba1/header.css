@@ -32,7 +32,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #b1e3e3;
+    background-color: #B4C6CC;
     padding: 20px;
 }
 
@@ -61,7 +61,7 @@ header {
 
 button {
     padding: 9px 25px;
-    background-color: #412C1D;
+    background-color: #435264;
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -111,7 +111,7 @@ nav2 {
 
 /* Barra inferior al navbar */
 .underbar {
-    background-color: #412C1D;
+    background-color: #3e4654;
     height: 50px;
     display: flex;
     align-items: center;

@@ -10,7 +10,7 @@ li, a {
     color: black;
     text-decoration: none;
     text-transform: uppercase;
-    background-color: #b1e3e3;
+    background-color: #B4C6CC;
 }
 
 
@@ -22,7 +22,7 @@ li, a {
     position: absolute;
     bottom: 0;
     width: 100%;
-    background-color: #b1e3e3;
+    background-color: #B4C6CC;
 
 
 }
@@ -53,7 +53,7 @@ li, a {
     bottom: 0.5%;
     left: 0;
     right: 0;
-    background-color: #b1e3e3;
+    background-color: #B4C6CC;
 
 }
 
