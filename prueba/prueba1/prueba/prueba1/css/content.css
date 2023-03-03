@@ -2,7 +2,7 @@
 
 /* Propiedades generales para el color de fuente y fondo */
 * {
-    color: whitesmoke;
+    font-family: Poppins;
     margin: 0;
     padding: 0;
 }
@@ -17,6 +17,7 @@
     margin-left: auto;
     margin-right: auto;
     padding: 25px;
+    color: white;
 }
 
 /* Propiedades de los títulos */

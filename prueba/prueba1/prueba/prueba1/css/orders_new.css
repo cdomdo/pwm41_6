@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 * {
+    font-family: Poppins;
     background: #222228;
-    color: white;
 }
 
 /* Barra de navegación inferior */
 nav {
+    color: white;
     box-sizing: border-box;
     padding: 20px;
     align-items: flex-start;
@@ -23,12 +24,11 @@ li, a {
 }
 
 .order-panel {
-
     display: flex;
     flex-direction: column;
     margin: 30px auto;
     max-width: 800px;
-    font-family: "Helvetica Neue Bold";
+    font-family: "Poppins";
     text-transform: uppercase;
 
     /** Scroll */
@@ -38,15 +38,18 @@ li, a {
     overflow-x: hidden; /* Desactivar barra de scroll horizontal */
 }
 
+
 .order {
     font-family: "Poppins";
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+    color: white;
 }
 
 .order-img {
     margin-right: 30px;
+
 }
 
 .order-img img {
@@ -56,6 +59,7 @@ li, a {
 }
 
 .header {
+    color: white;
     margin-bottom: 10px;
 }
 

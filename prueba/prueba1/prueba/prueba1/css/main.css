@@ -1,19 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-@font-face {
-    font-family: 'Helvetica Neue Bold';
-    src: url('../fonts/HelveticaNeueBold.ttf');
-}
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Helvetica Neue Bold', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 20px;
 
 
 }
-/*cuerpo*/
+/* Cuerpo */
 body{
     background-color: #222228;
     align-items: center;
@@ -36,7 +33,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 60vh;
-    margin-bottom: 520px;
+    margin-bottom: 530px;
 
 }
 
@@ -52,24 +49,37 @@ body{
 
 p {
     color:#b1e3e3 ;
-    font-size: 36px;
+    font-size: 30px;
+    text-transform: uppercase;
 }
 
 /*------------------------------------------------------*/
 /*tres imagenes contenedor*/
 .image-container {
-    margin-top: 320px;
+    margin-top: 220px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+
+
 }
 
 .imgc {
-    height: 450px;
-    width: 450px;
+    height: 650px;
+    width: 650px;
     margin: 1px;
 }
 
 .contf{
     background-color: #b1e3e3;
 }
+
+/* Propiedades de imágenes */
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
