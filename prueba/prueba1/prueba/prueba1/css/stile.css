@@ -1,107 +1,75 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@font-face {
+    font-family: 'Helvetica Neue Bold';
+    src: url('../fonts/HelveticaNeueBold.ttf');
+}
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Helvetica Neue Bold', sans-serif;
     font-size: 20px;
+
 
 }
 /*cuerpo*/
 body{
-    background-color: white;
+    background-color: #232533;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    position: relative;
+    padding-bottom: 100px;
+
+
 }
+.espacio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+
+}
+.espacio2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    margin-bottom: 520px;
+
+}
+
 
 /*----------------------------------------------*/
-
-/*------------------------------------------------------*/
-/*carrusel*/
-/* Estilos del contenedor principal del carrusel */
-.carousel{
-    width: 100%;
-    height: 60vh;
+.text-Rebajas{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 10vh;
+    margin-top: 120px;
+}
 
+p {
+    color:#b1e3e3 ;
+    font-size: 36px;
 }
-.slider{
-    width: 800px;
-    height: 500px;
-    position: relative;
-}
-.slider img{
-    width: 100%;
-    height: 100%;
-    border-radius: 7px;
-}
-.flechas{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items:center ;
-    padding: 10px;
-}
-.flechas button{
-    background: none;
-    outline: none;
-    border: none;
-    color: white;
 
-}
-.flechas button i{
-    font-size: 70px;
-}
-.flechas button:hover{
-    color: #95a5a6;
-}
 /*------------------------------------------------------*/
-/*carrusel*/
-/* Estilos del contenedor principal del carrusel */
-.carousel2{
-    width: 100%;
-    height: 60vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-.slider2{
-    width: 800px;
-    height: 500px;
-    position: relative;
-}
-.slider2 img{
-    width: 100%;
-    height: 100%;
-    border-radius: 7px;
-}
-.flechas2{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+/*tres imagenes contenedor*/
+.image-container {
+    margin-top: 320px;
     display: flex;
     justify-content: space-between;
-    align-items:center ;
-    padding: 10px;
+    align-items: center;
 }
-.flechas2 button{
-    background: none;
-    outline: none;
-    border: none;
-    color: white;
 
+.imgc {
+    height: 450px;
+    width: 450px;
+    margin: 1px;
 }
-.flechas2 button i{
-    font-size: 70px;
+
+.contf{
+    background-color: #b1e3e3;
 }
-.flechas2 button:hover{
-    color: #95a5a6;
-}
-/*--------------------------------------------*/
