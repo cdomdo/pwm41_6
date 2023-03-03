@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* Propiedades generales para el color de fuente y fondo */
+* {
+    color: whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+
+.main-c {
+    background-color: #222228;
+}
+
+/* Contenedor principal del contenido, propiedades para centrar el div */
+.main {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+}
+
+/* Propiedades de los títulos */
+h1, h4 {
+    text-transform: uppercase;
+    padding-top: 5px;
+    margin-bottom: 15px;
+
+}
+
+h1 {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+
+h4 {
+    font-family: "Poppins", sans-serif;
+    text-align: left;
+
+}
+
+/* Propiedades del párrafo */
+p {
+    font-family: "Poppins";
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+/* Propiedades de imágenes */
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+/* Imágenes de contenedor */
+.img-c {
+    width: auto;
+    height: 450px;
+    margin: 1px;
+}
+
+/* Imágenes de contenedor 2*/
+.img-c2 {
+    width: 850px;
+    height: auto;
+    margin: 1px;
+}
