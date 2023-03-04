@@ -26,6 +26,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 60vh;
+    margin-bottom: 20px;
 
 }
 .espacio2{
@@ -44,7 +45,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 10vh;
-    margin-top: 120px;
+    margin-top: 20px;
 }
 
 p {
@@ -56,10 +57,11 @@ p {
 /*------------------------------------------------------*/
 /*tres imagenes contenedor*/
 .image-container {
-    margin-top: 220px;
+    margin-top: 320px;
     display: flex;
     justify-content: center;
     align-items: center;
+
 
 
 }
@@ -83,3 +85,6 @@ p {
     margin-top: 15px;
 }
 
+.buscar{
+    margin-top: 20px;
+}

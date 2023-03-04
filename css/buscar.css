@@ -1,4 +1,4 @@
-input {
+.input {
     font:inherit;
 }
 section {
@@ -6,10 +6,10 @@ section {
     display: flex;
     align-items: center;
 }
-form {
+#form {
     margin: auto;
 }
-form > div {
+#form > #div {
     display: flex;
     background:#fff;
     padding: 9px 22px 9px 26px;
@@ -20,7 +20,7 @@ form > div {
     rgba(255, 255, 255, 0.5) -8px -8px 15px inset,
     rgba(0, 0, 0, 0.1) 10px 10px 10px inset;
 }
-form input {
+#form #input {
     border:none;
     background: transparent;
     font-weight: bold;
@@ -31,7 +31,7 @@ form input {
     width: 400px;
     transition: all 0.5s;
 }
-form input:focus {
+#form #input:focus {
     outline: none;
     width: 800px;
 }
