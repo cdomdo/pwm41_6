@@ -129,3 +129,18 @@ nav2 {
     font-size: 17px;
     color: white;
 }
+
+/* Estilos para tablet */
+@media screen and (max-width: 768px) {
+    .underbar_text {
+        font-size: 15px;
+    }
+}
+
+/* Estilos para móvil */
+@media screen and (max-width: 400px) {
+    .underbar_text {
+        font_size: 12px;
+    }
+}
+

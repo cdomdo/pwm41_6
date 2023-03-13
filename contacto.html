@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title> Contacto </title>
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <script src="http://www.w3schools.com/lib/w3data.js"></script>
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/content.css">
+  <link rel="stylesheet" href="css/contacto.css">
+  <link rel="stylesheet" href="css/footer.css">
+
+</head>
+
+<div>
+  <header class="header" w3-include-html="header.html"></header>
+</div>
+
+<div class="underbar">
+  <span class="underbar_text"> GASTOS DE ENVÍO GRATUITOS EN PEDIDOS SUPERIORES A 100€ </span>
+</div>
+
+
+<div class="main-c">
+  <div class="main">
+    <section class="hero">
+      <h1> Formulario de contacto </h1>
+    </section>
+
+    <section class="content">
+      <h4> ¡Estamos aquí para ayudarte! </h4>
+      <p> Por favor, tómate unos minutos para completar el formulario con la mayor precisión posible. Asegúrate de
+          proporcionar detalles suficientes para que podamos entender tu consulta y ofrecerte una respuesta adecuada.
+          Nuestro equipo de atención al cliente está a tu disposición para ayudarte en lo que necesites, y
+          nos comprometemos a responder a tus preguntas lo antes posible. </p>
+    </section>
+  </div>
+</div>
+
+<div class="main-c">
+  <form>
+    <label for="nombre">Nombre*</label>
+    <input type="text" id="nombre" name="nombre" required>
+
+    <label for="apellidos">Apellidos*</label>
+    <input type="text" id="apellidos" name="apellidos" required>
+
+    <label for="email">Correo electrónico*</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="num-pedido">Número de pedido</label>
+    <input type="text" id="num-pedido" name="num-pedido">
+
+    <label for="motivo">Motivo*</label>
+    <select id="motivo" name="motivo" required>
+      <option value="">Seleccionar</option>
+      <option value="Devolución de artículos">Devolución de artículos</option>
+      <option value="Producto defectuoso">Producto defectuoso</option>
+      <option value="Ayuda/consulta con productos o tallaje">Ayuda/consulta con productos o tallaje</option>
+      <option value="Incidencias con la plataforma">Incidencias con la plataforma</option>
+      <option value="Consultas sobre el estado de un pedido">Consultas sobre el estado de un pedido</option>
+      <option value="Incidencia con un pedido">Incidencia con un pedido</option>
+      <option value="Otro motivo">Otro motivo</option>
+    </select>
+
+    <label for="consulta">Consulta*</label>
+    <textarea id="consulta" name="consulta" required></textarea>
+
+    <input type="submit" value="Enviar">
+  </form>
+  <h1> </h1>
+
+</div>
+
+<div class="contf">
+  <footer w3-include-html="footer.html"></footer>
+</div>
+
+<script>
+  w3IncludeHTML();
+</script>

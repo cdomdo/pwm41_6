@@ -39,11 +39,16 @@ h4 {
 
 }
 
+li {
+    color: white;
+    font-size: 15px;
+}
 /* Propiedades del párrafo */
 p {
     font-family: "Poppins";
     text-align: justify;
     margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.62);
 }
 
 /* Propiedades de imágenes */
@@ -60,6 +65,7 @@ p {
     width: auto;
     height: 450px;
     margin: 1px;
+    object-fit: cover;
 }
 
 /* Imágenes de contenedor 2*/
@@ -68,3 +74,66 @@ p {
     height: auto;
     margin: 1px;
 }
+
+/** Estilos para tablas **/
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 3%;
+}
+th, td {
+    text-align: center;
+    padding: 8px;
+}
+th {
+    background-color: #aebec5;
+}
+tr:nth-child(even) {
+    background-color: rgba(63, 70, 83, 0.45);
+}
+tr:nth-child(odd) {
+    background-color: #3f4653;
+}
+
+/* Estilos para tablet **/
+@media screen and (max-width: 768px) {
+    .images {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .img-c {
+        width: 45%;
+        margin: 1px;
+    }
+
+    .img-c2 {
+        width: 100%;
+        margin: 1px;
+    }
+}
+
+/* Estilos para móvil */
+@media screen and (max-width: 400px) {
+    .img-c,
+    .img-c2 {
+        width: 100%;
+        margin: 1px;
+    }
+
+    /* Propiedades de los títulos */
+    h1, h4 {
+        font-size: 25px;
+
+    }
+
+    /* Propiedades del párrafo */
+    p {
+        font-size: 20px;
+    }
+}
+
+
+
+
